@@ -240,6 +240,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: white;
 }
 
 .staff__subtitle {
@@ -247,7 +248,8 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 0;
+  margin: 0 0 68px;
+  color: white;
 }
 
 .staff__image {
@@ -282,6 +284,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
+  left: 22px;
 }
 
 .card__title {
@@ -321,11 +325,11 @@
 
 .membership__steps {
   display: flex;
-  flex-basis: auto;
+  /* flex-basis: auto; */
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 40px;
 }
 
@@ -361,10 +365,13 @@
 
 .about__title {
   margin: 0;
+  position: absolute;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
+  width: 154px;
+  max-width: 154px;
 }
 
 .about__content {
@@ -372,6 +379,11 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  margin: 0 274px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .about__paragraph {
@@ -380,9 +392,12 @@
 
 .about__circle {
   background-color: #2f80ed;
+  position: absolute;
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  top: -121px;
+  left: -91px;
 }
 
 .footer {
