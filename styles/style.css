@@ -325,7 +325,6 @@
 
 .membership__steps {
   display: flex;
-  /* flex-basis: auto; */
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
@@ -429,7 +428,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
